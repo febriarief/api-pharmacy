@@ -32,4 +32,3 @@ jobs:
             git pull origin main
             composer install
             php artisan key:generate
-            php artisan passport:install
