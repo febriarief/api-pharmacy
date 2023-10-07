@@ -27,7 +27,7 @@ jobs:
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
           script: |
-            cd /home/pharmacy/public_html
+            cd /home/pharmacy/public_html/api
             git checkout main 
             git pull origin main
             composer install
